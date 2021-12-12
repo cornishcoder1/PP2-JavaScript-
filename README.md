@@ -165,6 +165,7 @@ I would like to expand on the interactivity of the site, perhaps implementing a 
 
 - HTML
 - CSS
+- JavaScript
 - Gitpod
 - GitHub
 
@@ -203,16 +204,6 @@ A single warning was detected across all pages, advising that sections did not c
 HTML validator result links:
 
 <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2F"> index.html</a>
-
-<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2Fabout.html"> about.html</a>
-
-<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2Fprices.html"> prices.html</a>
-
-<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2Fcontact.html"> contact.html</a> 
-
-<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2Fconfirmation.html%3Ffirst_name%3DLEah%26last_name%3DFisher%26email_address%3Dleahfisher07%2540hotmail.co.uk%26from%3D2021-11-13%26to%3D2021-11-25%26number%3D2%26message%3Dtest%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B"> confirmation.html </a>
-
-
 
 ## CSS
 
@@ -305,7 +296,7 @@ I used the following websites for research:
 
 ## Media 
 
-1. Cat hero image by <a href="https://unsplash.com/@lloydhenneman"> Lloyd Henneman</a> on <a href="https://unsplash.com/photos/mBRfYA0dYYE"> Unsplash</a> 
+1. Smiley nigiri icon by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
 
 2. Homepage video by <a href="https://www.pexels.com/@magda-ehlers-pexels"> Magda Ehlers</a> on <a href="https://www.pexels.com/video/close-up-video-of-three-cats-eating-5306154/"> Pexels</a> 
 
