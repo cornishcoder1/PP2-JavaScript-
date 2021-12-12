@@ -296,7 +296,7 @@ I used the following websites for research:
 
 ## Media 
 
-1. Smiley nigiri icon by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+1. Smiley nigiri icon by <a href="https://www.freepik.com" title="Freepik">Freepik</a> on <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a>
 
 2. Homepage video by <a href="https://www.pexels.com/@magda-ehlers-pexels"> Magda Ehlers</a> on <a href="https://www.pexels.com/video/close-up-video-of-three-cats-eating-5306154/"> Pexels</a> 
 
