@@ -5,16 +5,39 @@ body {
     font-family: 'Baloo Bhaijaan 2', sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
 .heading {
     text-align: center;
     color: black;
     font-size: 1.5rem;
 }
 
-.heading > h1, img, h2 {
-    margin: 0;
-    padding: 0;
+.container {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
 }
+
+.justify-centre {
+    justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .choice-container {
     display:flex;
@@ -31,4 +54,60 @@ body {
     box-shadow: 0 0.4rem 0 rgba(6, 103, 247, 0.5);
     transform: scale(1.02);
     transform: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 2 rem 2.5 rem;
+    color: black;
+}
+
+.choice-text {
+    padding: 2 rem;
+    width: 100%;
+}
+
+.correct {
+    background: linear-gradient(32 deg, rgba(11, 223, 36) 0%, rgba(41, 232, 111)100%);
+}
+
+.incorrect {
+    background: linear-gradient(32 deg, rgba(230, 29, 29, 1) 0%, rgba(224, 11, 11, 1)100%);
+}
+
+/* Progress & Score Display*/
+
+#psdisplay {
+    display: flex;
+    justify-content: space-between;
+}
+
+.psdisplay-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.psdisplay-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(11, 223, 36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: rgb(11, 223, 36);
+    width: 0%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
 }
