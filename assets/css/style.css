@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+
 body {
     background: #3DCF27;
     font-family: 'Baloo Bhaijaan 2', sans-serif;
@@ -5,10 +7,28 @@ body {
 
 .heading {
     text-align: center;
-    color: white;
+    color: black;
     font-size: 1.5rem;
 }
 
 .heading > h1, img, h2 {
     margin: 0;
+    padding: 0;
+}
+
+.choice-container {
+    display:flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(18, 93, 255);
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 0 rgba(6, 103, 247, 0.5);
+    transform: scale(1.02);
+    transform: transform 100ms;
 }
