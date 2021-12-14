@@ -74,11 +74,12 @@ body {
 }
 
 .correct {
-    background: linear-gradient(32 deg, rgba(11, 223, 36) 0%, rgba(41, 232, 111)100%);
+    /*background: linear-gradient(32 deg, rgba(11, 223, 36) 0%, rgba(41, 232, 111)100%);*/
+    background-color: green;
 }
 
 .incorrect {
-    background: linear-gradient(32 deg, rgba(230, 29, 29, 1) 0%, rgba(224, 11, 11, 1)100%);
+    background-color: red;
 }
 
 /* Progress & Score Display*/
