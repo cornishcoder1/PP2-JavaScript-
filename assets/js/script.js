@@ -1,3 +1,5 @@
+console.log("hello")
+
 const questionArray = [
     {
         question: "This dish is a speciality in the region of Gunma, typically consisting of pork tenderloin which is breaded and deep fried.",
@@ -117,10 +119,28 @@ for (let i = 0; i < answerSection.children.length - 1; i++) {
   answerSection.children[i].textContent = questionArray[questionNumber].allAnswers[i];
 }
 
-function myFunction (event) {
-    console.log('You clicked the button!');
-    console.log(this.classList);  // my-button
-  }
-  
-  let answerButtons = document.getElementsByClassName('button');
-  answerButtons.addEventListener('click', myFunction);
+
+
+let buttonOne = document.getElementById('buttonOne');
+
+function userClicks() {
+    buttonOne.addEventListener('click', function() {
+
+        console.log('clicked')
+    });
+
+    buttonTwo.addEventListener('click', function() {
+
+        console.log('clicked again')
+    });
+
+    buttonThree.addEventListener('click', function() {
+
+        console.log('clicked third time')
+    });
+    
+}
+
+
+userClicks()
+
