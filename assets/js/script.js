@@ -116,3 +116,11 @@ questionText.textContent = questionArray[questionNumber].question;
 for (let i = 0; i < answerSection.children.length - 1; i++) {
   answerSection.children[i].textContent = questionArray[questionNumber].allAnswers[i];
 }
+
+function myFunction (event) {
+    console.log('You clicked the button!');
+    console.log(this.classList);  // my-button
+  }
+  
+  let answerButtons = document.getElementsByClassName('button');
+  answerButtons.addEventListener('click', myFunction);
